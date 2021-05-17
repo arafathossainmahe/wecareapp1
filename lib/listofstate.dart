@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:wecareapp/joharstate.dart';
+import 'package:wecareapp/statepage/joharstate.dart';
+import 'package:wecareapp/statepage/kedahstate.dart';
+import 'package:wecareapp/statepage/melakastate.dart';
+import 'package:wecareapp/statepage/negerisembilan.dart';
 
 class ListOfState extends StatefulWidget {
   ListOfState({Key key}) : super(key: key);
@@ -14,87 +17,147 @@ class _ListOfStateState extends State<ListOfState> {
     return ListView(
       children: [
         Center(
-          child: Text(
-            'Name of State',
-            style: TextStyle(
-              fontSize: 25,
-              color: Colors.amberAccent,
+          child: Padding(
+            padding: const EdgeInsets.all(25),
+            child: Text(
+              'Name of State',
+              style: TextStyle(
+                fontSize: 25,
+                color: Colors.red,
+              ),
             ),
           ),
+        ),
+        Divider(
+          color: Colors.black,
         ),
         ListTile(
           title: Center(
             child: Text('Johor'),
           ),
-          onTap: (){
-             Route route=MaterialPageRoute(builder:(context)=>JoharState());
+          onTap: () {
+            Route route = MaterialPageRoute(builder: (context) => JoharState());
             Navigator.push(context, route);
           },
+        ),
+        Divider(
+          color: Colors.black,
         ),
         ListTile(
           title: Center(
             child: Text('Kedah'),
           ),
+           onTap: () {
+            Route route = MaterialPageRoute(builder: (context) => KedahState());
+            Navigator.push(context, route);
+          },
+        ),
+        Divider(
+          color: Colors.black,
         ),
         ListTile(
           title: Center(
             child: Text('Melaka'),
           ),
+          onTap: () {
+            Route route = MaterialPageRoute(builder: (context) => MelakaState());
+            Navigator.push(context, route);
+          },
+        ),
+        Divider(
+          color: Colors.black,
         ),
         ListTile(
           title: Center(
             child: Text('Negeri Sembilan'),
           ),
+           onTap: () {
+            Route route = MaterialPageRoute(builder: (context) => NegeriSembilan());
+            Navigator.push(context, route);
+          },
+        ),
+        Divider(
+          color: Colors.black,
         ),
         ListTile(
           title: Center(
             child: Text('Pahang'),
           ),
         ),
+        Divider(
+          color: Colors.black,
+        ),
         ListTile(
           title: Center(
             child: Text('Perak'),
           ),
+        ),
+        Divider(
+          color: Colors.black,
         ),
         ListTile(
           title: Center(
             child: Text('Pulau Pinang'),
           ),
         ),
+        Divider(
+          color: Colors.black,
+        ),
         ListTile(
           title: Center(
             child: Text('Sabah'),
           ),
+        ),
+        Divider(
+          color: Colors.black,
         ),
         ListTile(
           title: Center(
             child: Text('Sarawak'),
           ),
         ),
+        Divider(
+          color: Colors.black,
+        ),
         ListTile(
           title: Center(
             child: Text('Melaka'),
           ),
+        ),
+        Divider(
+          color: Colors.black,
         ),
         ListTile(
           title: Center(
             child: Text('Selangor'),
           ),
         ),
+        Divider(
+          color: Colors.black,
+        ),
         ListTile(
           title: Center(
             child: Text('Terengganu'),
           ),
+        ),
+        Divider(
+          color: Colors.black,
         ),
         ListTile(
           title: Center(
             child: Text('WP Kuala Lumpur'),
           ),
         ),
+        Divider(
+          color: Colors.black,
+        ),
         ListTile(
           title: Center(
             child: Text('WP Putrajaya'),
           ),
+        ),
+        Divider(
+          color: Colors.black,
         ),
       ],
     );

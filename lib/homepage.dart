@@ -10,7 +10,7 @@ class HomePage extends StatefulWidget {
 
 class _HomePageState extends State<HomePage> {
   int _currentIndex = 0;
-  final tabs=[
+  final tabs = [
     ListOfState(),
     Map(),
   ];
@@ -18,9 +18,7 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Center(
-          child: Text('We Care'),
-        ),
+        title: Text('We Care'),
       ),
       drawer: MyDrawer(),
       bottomNavigationBar: BottomNavigationBar(
