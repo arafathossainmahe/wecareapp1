@@ -3,6 +3,7 @@ import 'package:wecareapp/statepage/joharstate.dart';
 import 'package:wecareapp/statepage/kedahstate.dart';
 import 'package:wecareapp/statepage/melakastate.dart';
 import 'package:wecareapp/statepage/negerisembilan.dart';
+import 'package:wecareapp/statepage/pahangstate.dart';
 
 class ListOfState extends StatefulWidget {
   ListOfState({Key key}) : super(key: key);
@@ -83,6 +84,10 @@ class _ListOfStateState extends State<ListOfState> {
           title: Center(
             child: Text('Pahang'),
           ),
+          onTap: () {
+            Route route = MaterialPageRoute(builder: (context) =>PahangState());
+            Navigator.push(context, route);
+          },
         ),
         Divider(
           color: Colors.black,
