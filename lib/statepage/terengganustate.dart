@@ -1,29 +1,29 @@
 import 'package:flutter/material.dart';
-import 'package:wecareapp/cliniclist/pahangstatecliniclist.dart';
+import 'package:wecareapp/cliniclist/terengganustateclinic;ist.dart';
 
-class PahangState extends StatefulWidget {
-  PahangState({Key key}) : super(key: key);
+class TerengganuState extends StatefulWidget {
+  TerengganuState({Key key}) : super(key: key);
 
   @override
-  _PahangStateState createState() => _PahangStateState();
+  _TerengganuStateState createState() => _TerengganuStateState();
 }
 
-class _PahangStateState extends State<PahangState> {
+class _TerengganuStateState extends State<TerengganuState> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('List of Clinic in Pahang state'),
+        title: Text('List of Clinic in Terengganu state'),
       ),
       body: ListView.builder(
-        itemCount: PahangStateClinicList.length,
+        itemCount: TerengganuStateClinicList.length,
         itemBuilder: (BuildContext context, int index) {
           return ExpansionTile(
-            title: Text(PahangStateClinicList[index].titletext),
+            title: Text( TerengganuStateClinicList[index].titletext),
             
             subtitle: Padding(
               padding: const EdgeInsets.only(top:5.0),
-              child: Text(PahangStateClinicList[index].subtitletext),
+              child: Text( TerengganuStateClinicList[index].subtitletext),
             ),
             children: [
               Container(
@@ -37,48 +37,48 @@ class _PahangStateState extends State<PahangState> {
                       children: [
                         Padding(
                           padding: const EdgeInsets.only(left: 10.0),
-                          child: Text(PahangStateClinicList[index].clinic),
+                          child: Text( TerengganuStateClinicList[index].clinic),
                         ),
                         Padding(
                           padding: const EdgeInsets.only(left: 10.0, top: 5),
                           child: Text(
-                            PahangStateClinicList[index].clinicname,
+                             TerengganuStateClinicList[index].clinicname,
                             style: TextStyle(fontSize: 18),
                           ),
                         ),
                         Divider(),
                         Padding(
                           padding: const EdgeInsets.only(left: 10),
-                          child: Text(PahangStateClinicList[index].address),
+                          child: Text( TerengganuStateClinicList[index].address),
                         ),
                         Padding(
                           padding: const EdgeInsets.only(left: 10, top: 5),
                           child: Text(
-                            PahangStateClinicList[index].clinicaddress,
+                             TerengganuStateClinicList[index].clinicaddress,
                             style: TextStyle(fontSize: 18),
                           ),
                         ),
                         Divider(),
                         Padding(
                           padding: const EdgeInsets.only(left: 10.0),
-                          child: Text(PahangStateClinicList[index].location),
+                          child: Text( TerengganuStateClinicList[index].location),
                         ),
                         Padding(
                           padding: const EdgeInsets.only(left: 10, top: 5),
                           child: Text(
-                            PahangStateClinicList[index].cliniclocation,
+                             TerengganuStateClinicList[index].cliniclocation,
                             style: TextStyle(fontSize: 18),
                           ),
                         ),
                         Divider(),
                         Padding(
                           padding: const EdgeInsets.only(left: 10),
-                          child: Text(PahangStateClinicList[index].state),
+                          child: Text( TerengganuStateClinicList[index].state),
                         ),
                         Padding(
                           padding: const EdgeInsets.only(left: 10, top: 5),
                           child: Text(
-                            PahangStateClinicList[index].nameofstate,
+                            TerengganuStateClinicList[index].nameofstate,
                             style: TextStyle(fontSize: 18),
                           ),
                         ),

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-class Psclist {
+class Tsclist {
   final String clinic;
   final String clinicname;
   final String address;
@@ -12,7 +12,7 @@ class Psclist {
   final String titletext;
   final String subtitletext;
 
-  Psclist(
+  Tsclist(
     {
     @required this.clinic,
     @required this.clinicname,
@@ -27,17 +27,17 @@ class Psclist {
     }
   );
 }
-final PahangStateClinicList=[
-  Psclist(
-    titletext: 'KLINIK FAMILI - BS',
-    subtitletext: 'KUANTAN',
+final TerengganuStateClinicList=[
+  Tsclist(
+    titletext: 'KLINIK RAFA',
+    subtitletext: 'KUALA TERENGGANU',
     clinic: 'Clinic Name',
-    clinicname: 'KLINIK FAMILI - BS',
+    clinicname: 'KLINIK RAFA',
     address: 'Address',
-    clinicaddress: 'NO.B80, TINGKAT BAWAH, JALAN BUKIT SEKILAU',
+    clinicaddress: 'K8 TAMAN DESA MPKT CHENDERING',
     location: 'Location',
-    cliniclocation: 'KUANTAN',
+    cliniclocation: 'KUALA TERENGGANU',
     state: 'State',
-    nameofstate: 'PAHANG',
+    nameofstate: 'TERENGGANU',
     ),
 ];
