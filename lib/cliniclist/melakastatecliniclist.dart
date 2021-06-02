@@ -400,4 +400,16 @@ final MelakaStateClinicList=[
     state: 'State',
     nameofstate: 'MELAKA',
     ),
+    Msclist(
+    titletext: 'KLINIK IMPIAN - DURIAN TUNGGAL',
+    subtitletext: 'DURIAN TUNGGAL',
+    clinic: 'Clinic Name',
+    clinicname: 'KLINIK IMPIAN - DURIAN TUNGGAL',
+    address: 'Address',
+    clinicaddress: 'N0 90 TINGKAT BAWAH JALAN ST PERMAI 2 TAMAN SERI TUAH PERMAI',
+    location: 'Location',
+    cliniclocation: 'DURIAN TUNGGAL',
+    state: 'State',
+    nameofstate: 'MELAKA',
+    ),
 ];
