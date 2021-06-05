@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:wecareapp/about.dart';
 
 class MyDrawer extends StatelessWidget {
   const MyDrawer({Key key}) : super(key: key);
@@ -23,6 +24,10 @@ class MyDrawer extends StatelessWidget {
           ListTile(
             tileColor: Colors.amber[50],
             title: Text('Abot Us'),
+            onTap: () {
+            Route route = MaterialPageRoute(builder: (context) => AboutText());
+            Navigator.push(context, route);
+          },
           ),
         ],
       ),
