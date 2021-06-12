@@ -37,49 +37,49 @@ class _WpPutrajayaStateState extends State<WpPutrajayaState> {
                       children: [
                         Padding(
                           padding: const EdgeInsets.only(left: 10.0),
-                          child: Text( WpPutrajayaStateClinicList[index].clinic),
+                          child: Text( WpPutrajayaStateClinicList[index].clinic,style: TextStyle(color: Colors.blue),),
                         ),
                         Padding(
                           padding: const EdgeInsets.only(left: 10.0, top: 5),
                           child: Text(
                              WpPutrajayaStateClinicList[index].clinicname,
-                            style: TextStyle(fontSize: 18),
+                            style: TextStyle(fontSize: 18,color: Colors.blue),
                           ),
                         ),
                         Divider(),
                         Padding(
                           padding: const EdgeInsets.only(left: 10),
-                          child: Text( WpPutrajayaStateClinicList[index].address),
+                          child: Text( WpPutrajayaStateClinicList[index].address,style: TextStyle(color: Colors.blue),),
                         ),
                         Padding(
                           padding: const EdgeInsets.only(left: 10, top: 5),
                           child: Text(
                              WpPutrajayaStateClinicList[index].clinicaddress,
-                            style: TextStyle(fontSize: 18),
+                            style: TextStyle(fontSize: 18,color: Colors.blue),
                           ),
                         ),
                         Divider(),
                         Padding(
                           padding: const EdgeInsets.only(left: 10.0),
-                          child: Text( WpPutrajayaStateClinicList[index].location),
+                          child: Text( WpPutrajayaStateClinicList[index].location,style: TextStyle(color: Colors.blue),),
                         ),
                         Padding(
                           padding: const EdgeInsets.only(left: 10, top: 5),
                           child: Text(
                              WpPutrajayaStateClinicList[index].cliniclocation,
-                            style: TextStyle(fontSize: 18),
+                            style: TextStyle(fontSize: 18,color: Colors.blue),
                           ),
                         ),
                         Divider(),
                         Padding(
                           padding: const EdgeInsets.only(left: 10),
-                          child: Text( WpPutrajayaStateClinicList[index].state),
+                          child: Text( WpPutrajayaStateClinicList[index].state,style: TextStyle(color: Colors.blue),),
                         ),
                         Padding(
                           padding: const EdgeInsets.only(left: 10, top: 5),
                           child: Text(
                             WpPutrajayaStateClinicList[index].nameofstate,
-                            style: TextStyle(fontSize: 18),
+                            style: TextStyle(fontSize: 18,color: Colors.blue),
                           ),
                         ),
                       ],

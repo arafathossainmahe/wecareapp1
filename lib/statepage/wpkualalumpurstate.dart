@@ -37,49 +37,49 @@ class _WpKualaLumpurStateState extends State<WpKualaLumpurState> {
                       children: [
                         Padding(
                           padding: const EdgeInsets.only(left: 10.0),
-                          child: Text( WpKualaLumpurStateClinicList[index].clinic),
+                          child: Text( WpKualaLumpurStateClinicList[index].clinic,style: TextStyle(color: Colors.blue),),
                         ),
                         Padding(
                           padding: const EdgeInsets.only(left: 10.0, top: 5),
                           child: Text(
                              WpKualaLumpurStateClinicList[index].clinicname,
-                            style: TextStyle(fontSize: 18),
+                            style: TextStyle(fontSize: 18,color: Colors.blue),
                           ),
                         ),
                         Divider(),
                         Padding(
                           padding: const EdgeInsets.only(left: 10),
-                          child: Text( WpKualaLumpurStateClinicList[index].address),
+                          child: Text( WpKualaLumpurStateClinicList[index].address,style: TextStyle(color: Colors.blue),),
                         ),
                         Padding(
                           padding: const EdgeInsets.only(left: 10, top: 5),
                           child: Text(
                              WpKualaLumpurStateClinicList[index].clinicaddress,
-                            style: TextStyle(fontSize: 18),
+                            style: TextStyle(fontSize: 18,color: Colors.blue),
                           ),
                         ),
                         Divider(),
                         Padding(
                           padding: const EdgeInsets.only(left: 10.0),
-                          child: Text( WpKualaLumpurStateClinicList[index].location),
+                          child: Text( WpKualaLumpurStateClinicList[index].location,style: TextStyle(color: Colors.blue),),
                         ),
                         Padding(
                           padding: const EdgeInsets.only(left: 10, top: 5),
                           child: Text(
                              WpKualaLumpurStateClinicList[index].cliniclocation,
-                            style: TextStyle(fontSize: 18),
+                            style: TextStyle(fontSize: 18,color: Colors.blue),
                           ),
                         ),
                         Divider(),
                         Padding(
                           padding: const EdgeInsets.only(left: 10),
-                          child: Text( WpKualaLumpurStateClinicList[index].state),
+                          child: Text( WpKualaLumpurStateClinicList[index].state,style: TextStyle(color: Colors.blue),),
                         ),
                         Padding(
                           padding: const EdgeInsets.only(left: 10, top: 5),
                           child: Text(
                             WpKualaLumpurStateClinicList[index].nameofstate,
-                            style: TextStyle(fontSize: 18),
+                            style: TextStyle(fontSize: 18,color: Colors.blue),
                           ),
                         ),
                       ],

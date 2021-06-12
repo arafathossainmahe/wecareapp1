@@ -37,49 +37,49 @@ class _SelangorStateState extends State<SelangorState> {
                       children: [
                         Padding(
                           padding: const EdgeInsets.only(left: 10.0),
-                          child: Text( SelangorStateClinicList[index].clinic),
+                          child: Text( SelangorStateClinicList[index].clinic,style: TextStyle(color: Colors.blue),),
                         ),
                         Padding(
                           padding: const EdgeInsets.only(left: 10.0, top: 5),
                           child: Text(
                              SelangorStateClinicList[index].clinicname,
-                            style: TextStyle(fontSize: 18),
+                            style: TextStyle(fontSize: 18,color: Colors.blue),
                           ),
                         ),
                         Divider(),
                         Padding(
                           padding: const EdgeInsets.only(left: 10),
-                          child: Text( SelangorStateClinicList[index].address),
+                          child: Text( SelangorStateClinicList[index].address,style: TextStyle(color: Colors.blue),),
                         ),
                         Padding(
                           padding: const EdgeInsets.only(left: 10, top: 5),
                           child: Text(
                              SelangorStateClinicList[index].clinicaddress,
-                            style: TextStyle(fontSize: 18),
+                            style: TextStyle(fontSize: 18,color: Colors.blue),
                           ),
                         ),
                         Divider(),
                         Padding(
                           padding: const EdgeInsets.only(left: 10.0),
-                          child: Text( SelangorStateClinicList[index].location),
+                          child: Text( SelangorStateClinicList[index].location,style: TextStyle(color: Colors.blue),),
                         ),
                         Padding(
                           padding: const EdgeInsets.only(left: 10, top: 5),
                           child: Text(
                              SelangorStateClinicList[index].cliniclocation,
-                            style: TextStyle(fontSize: 18),
+                            style: TextStyle(fontSize: 18,color: Colors.blue),
                           ),
                         ),
                         Divider(),
                         Padding(
                           padding: const EdgeInsets.only(left: 10),
-                          child: Text( SelangorStateClinicList[index].state),
+                          child: Text( SelangorStateClinicList[index].state,style: TextStyle(color: Colors.blue),),
                         ),
                         Padding(
                           padding: const EdgeInsets.only(left: 10, top: 5),
                           child: Text(
                             SelangorStateClinicList[index].nameofstate,
-                            style: TextStyle(fontSize: 18),
+                            style: TextStyle(fontSize: 18,color: Colors.blue),
                           ),
                         ),
                       ],

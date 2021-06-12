@@ -37,49 +37,49 @@ class _TerengganuStateState extends State<TerengganuState> {
                       children: [
                         Padding(
                           padding: const EdgeInsets.only(left: 10.0),
-                          child: Text( TerengganuStateClinicList[index].clinic),
+                          child: Text( TerengganuStateClinicList[index].clinic,style: TextStyle(color: Colors.blue),),
                         ),
                         Padding(
                           padding: const EdgeInsets.only(left: 10.0, top: 5),
                           child: Text(
                              TerengganuStateClinicList[index].clinicname,
-                            style: TextStyle(fontSize: 18),
+                            style: TextStyle(fontSize: 18,color: Colors.blue),
                           ),
                         ),
                         Divider(),
                         Padding(
                           padding: const EdgeInsets.only(left: 10),
-                          child: Text( TerengganuStateClinicList[index].address),
+                          child: Text( TerengganuStateClinicList[index].address,style: TextStyle(color: Colors.blue),),
                         ),
                         Padding(
                           padding: const EdgeInsets.only(left: 10, top: 5),
                           child: Text(
                              TerengganuStateClinicList[index].clinicaddress,
-                            style: TextStyle(fontSize: 18),
+                            style: TextStyle(fontSize: 18,color: Colors.blue),
                           ),
                         ),
                         Divider(),
                         Padding(
                           padding: const EdgeInsets.only(left: 10.0),
-                          child: Text( TerengganuStateClinicList[index].location),
+                          child: Text( TerengganuStateClinicList[index].location,style: TextStyle(color: Colors.blue),),
                         ),
                         Padding(
                           padding: const EdgeInsets.only(left: 10, top: 5),
                           child: Text(
                              TerengganuStateClinicList[index].cliniclocation,
-                            style: TextStyle(fontSize: 18),
+                            style: TextStyle(fontSize: 18,color: Colors.blue),
                           ),
                         ),
                         Divider(),
                         Padding(
                           padding: const EdgeInsets.only(left: 10),
-                          child: Text( TerengganuStateClinicList[index].state),
+                          child: Text( TerengganuStateClinicList[index].state,style: TextStyle(color: Colors.blue),),
                         ),
                         Padding(
                           padding: const EdgeInsets.only(left: 10, top: 5),
                           child: Text(
                             TerengganuStateClinicList[index].nameofstate,
-                            style: TextStyle(fontSize: 18),
+                            style: TextStyle(fontSize: 18,color: Colors.blue),
                           ),
                         ),
                       ],

@@ -37,49 +37,49 @@ class _NegeriSembilanState extends State<NegeriSembilan> {
                       children: [
                         Padding(
                           padding: const EdgeInsets.only(left: 10.0),
-                          child: Text(NegeriSembilanStateClinicList[index].clinic),
+                          child: Text(NegeriSembilanStateClinicList[index].clinic,style: TextStyle(color: Colors.blue),),
                         ),
                         Padding(
                           padding: const EdgeInsets.only(left: 10.0, top: 5),
                           child: Text(
                             NegeriSembilanStateClinicList[index].clinicname,
-                            style: TextStyle(fontSize: 18),
+                            style: TextStyle(fontSize: 18,color: Colors.blue),
                           ),
                         ),
                         Divider(),
                         Padding(
                           padding: const EdgeInsets.only(left: 10),
-                          child: Text(NegeriSembilanStateClinicList[index].address),
+                          child: Text(NegeriSembilanStateClinicList[index].address,style: TextStyle(color: Colors.blue),),
                         ),
                         Padding(
                           padding: const EdgeInsets.only(left: 10, top: 5),
                           child: Text(
                             NegeriSembilanStateClinicList[index].clinicaddress,
-                            style: TextStyle(fontSize: 18),
+                            style: TextStyle(fontSize: 18,color: Colors.blue),
                           ),
                         ),
                         Divider(),
                         Padding(
                           padding: const EdgeInsets.only(left: 10.0),
-                          child: Text(NegeriSembilanStateClinicList[index].location),
+                          child: Text(NegeriSembilanStateClinicList[index].location,style: TextStyle(color: Colors.blue),),
                         ),
                         Padding(
                           padding: const EdgeInsets.only(left: 10, top: 5),
                           child: Text(
                             NegeriSembilanStateClinicList[index].cliniclocation,
-                            style: TextStyle(fontSize: 18),
+                            style: TextStyle(fontSize: 18,color: Colors.blue),
                           ),
                         ),
                         Divider(),
                         Padding(
                           padding: const EdgeInsets.only(left: 10),
-                          child: Text(NegeriSembilanStateClinicList[index].state),
+                          child: Text(NegeriSembilanStateClinicList[index].state,style: TextStyle(color: Colors.blue),),
                         ),
                         Padding(
                           padding: const EdgeInsets.only(left: 10, top: 5),
                           child: Text(
                             NegeriSembilanStateClinicList[index].nameofstate,
-                            style: TextStyle(fontSize: 18),
+                            style: TextStyle(fontSize: 18,color: Colors.blue),
                           ),
                         ),
                       ],
